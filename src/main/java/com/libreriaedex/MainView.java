@@ -1,4 +1,4 @@
-package com.alx.libreriaedex;
+package com.libreriaedex;
  
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Anchor;

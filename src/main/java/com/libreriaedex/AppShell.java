@@ -1,4 +1,4 @@
-package com.alx.libreriaedex;
+package com.libreriaedex;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.server.PWA;
