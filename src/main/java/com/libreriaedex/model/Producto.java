@@ -3,16 +3,16 @@ package com.libreriaedex.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "PRODUCTOS")
+@Table(name = "productos")
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_producto, stock_minimo, stock_maximo;
     
-    private String nombre_producto, categoria_producto, imagen_producto_url;
+    private String nombre_producto, descripcion_producto, categoria_producto, imagen_producto_url;
     
     private double precio_unitario;
-
+    
     public int getId_producto() {
         return id_producto;
     }
@@ -45,6 +45,14 @@ public class Producto {
         this.nombre_producto = nombre_producto;
     }
 
+    public String getDescripcion_producto() {
+        return descripcion_producto;
+    }
+
+    public void setDescripcion_producto(String descripcion_producto) {
+        this.descripcion_producto = descripcion_producto;
+    }
+       
     public String getCategoria_producto() {
         return categoria_producto;
     }

@@ -1,11 +1,5 @@
 import { injectGlobalWebcomponentCss } from 'Frontend/generated/jar-resources/theme-util.js';
 
-import '@vaadin/vertical-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/text-field/src/vaadin-text-field.js';
-import '@vaadin/tooltip/src/vaadin-tooltip.js';
-import '@vaadin/password-field/src/vaadin-password-field.js';
-import '@vaadin/button/src/vaadin-button.js';
-import 'Frontend/generated/jar-resources/disableOnClickFunctions.js';
 import '@vaadin/common-frontend/ConnectionIndicator.js';
 import 'Frontend/generated/jar-resources/ReactRouterOutletElement.tsx';
 const loadOnDemand = (key) => { return Promise.resolve(0); }
